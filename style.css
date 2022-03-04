@@ -1,0 +1,130 @@
+.header{
+    background-color: rgb(158, 175, 223);
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+    color: rgb(57, 57, 139);
+}
+
+h1{
+    margin-left: 30px;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.item p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.item:hover p{
+opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
+
+.item{
+    border: solid rgb(70, 75, 31);
+    position: relative;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.description{
+    text-align: center;
+    color: rgb(73, 41, 102);
+}
+
+body{
+    background-color: rgb(110, 110, 185);
+}
+
+.header1{
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 20px;
+    background-color: rgb(158, 175, 223);;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: solid;
+}
+
+.hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    padding: 15px;
+}
+
+.text1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.text2{
+    padding-left: 220px;
+}
+
+.text3{
+    padding-left: 290px;
+}
+
+.text4{
+    padding-left: 320px;
+}
+
+.myhobbies{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.shortessay{
+    text-align: center;
+}
+
+.favourites{
+    padding-top: 20px;
+}
+
+.myfavourites{
+    color: rgb(235, 183, 88);
+}
+
+.projects{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    color: red;
+}
